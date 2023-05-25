@@ -1,0 +1,90 @@
+
+.banner{
+    height: 958px;
+    background: url(../img/banner.png) center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-content{
+        color: #fff;
+        font-style: italic;
+
+        h1{
+            font-size: 80px;
+            line-height: 106px;
+            font-weight: 700;
+        }
+
+        a{
+            display: block;
+        }
+    }
+
+    &-soical{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+.title{
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 500;
+}
+
+.darkZone{
+    background-color: $dark-color;
+    color: $light-color;
+}
+
+hr{
+    border: 1px solid ;
+    width: 384px;
+    margin-bottom: 28px;
+}
+
+.about{
+    &-list{
+        li{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li::before{
+            content:"";
+            width: 22px;
+            height: 22px;
+            background-color: $decorate-color;
+            border-radius: 50%;
+            margin-right: 16px;
+        }
+    }
+}
+
+.brand{
+   
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.otherWorks{
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: 1200px) {
+            flex-direction: column;
+        }
+    }
+}
+
+.contact{
+    li:hover{
+        color: $decorate-color;
+    }
+}

@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-10 {
+  margin-bottom: 40px;
+}
+
+.mb-12 {
+  margin-bottom: 48px;
+}
+
+.mb-14 {
+  margin-bottom: 56px;
+}
+
+.mb-17 {
+  margin-bottom: 68px;
+}
+
+.me-6 {
+  margin-right: 24px;
+}
+
+.mx-6 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.pt-14 {
+  padding-top: 56px;
+}
+
+.pt-16 {
+  padding-top: 64px;
+}
+
+.pb-14 {
+  padding-bottom: 56px;
+}
+
+.pb-16 {
+  padding-bottom: 64px;
+}
+
+.pb-24 {
+  padding-bottom: 96px;
+}
+
+.pb-30 {
+  padding-bottom: 120px;
+}
+
+.fz-xs {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.fz-s {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.fz-md {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.fz-lg {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.banner {
+  height: 958px;
+  background: url(../img/banner.png) center center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-content {
+  color: #fff;
+  font-style: italic;
+}
+
+.banner-content h1 {
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: 700;
+}
+
+.banner-content a {
+  display: block;
+}
+
+.banner-soical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title {
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 500;
+}
+
+.darkZone {
+  background-color: #000;
+  color: #fff;
+}
+
+hr {
+  border: 1px solid;
+  width: 384px;
+  margin-bottom: 28px;
+}
+
+.about-list li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-list li::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.brand-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.otherWorks-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+  .otherWorks-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.contact li:hover {
+  color: #891818;
+}
+/*# sourceMappingURL=all.css.map */
